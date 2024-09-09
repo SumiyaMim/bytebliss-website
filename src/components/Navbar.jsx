@@ -27,14 +27,14 @@ const Navbar = () => {
 
 
   return (
-    <div className='navbar bg-base-100 shadow-lg px-8 sm:px-12 py-3 fixed z-10'>
+    <div className='navbar bg-base-100 shadow-lg px-5 md:px-8 py-3 fixed z-10'>
         <div className="flex-1">
             <Link to='/' className='text-secondary font-bold normal-case text-2xl'>
                 Byte<span className='text-primary'>Bliss</span>
             </Link>
         </div>
-        <div className="flex-none gap-8">
-            <ul className="menu menu-horizontal px-1 gap-8">
+        <div className="flex-none gap-3 md:gap-8">
+            <ul className="menu menu-horizontal px-1 gap-3 md:gap-8">
             <NavLink
             className={({ isActive }) =>
               isActive ? 'text-primary font-bold' : 'font-bold'
