@@ -26,7 +26,7 @@ const BlogCard = ({ blog, deletable, handleDelete }) => {
           <span className='text-xs '>
             {new Date(published_at).toLocaleDateString()}
           </span>
-          <p>{description}</p>
+          <p className='text-justify'>{description}</p>
         </div>
         <div></div>
       </Link>
