@@ -1,9 +1,13 @@
-import { Link, useLoaderData } from 'react-router-dom'
+import { Link, useLoaderData, useNavigation } from 'react-router-dom'
 import BlogCard from '../components/BlogCard'
+import Loader from '../components/Loader'
 
 const Blogs = () => {
 
   const blogs = useLoaderData()
+  const navigation = useNavigation()
+
+  if (navigation.state === 'loading') return <Loader/>
 
   return (
     <section className='px-4 sm:px-8 lg:px-12 py-8'>

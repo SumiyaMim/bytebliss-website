@@ -1,12 +1,12 @@
 import { useLoaderData } from 'react-router-dom'
 import placeholderImg from '../assets/404.jpg'
-// import Markdown from 'react-markdown'
-// import rehypeRaw from 'rehype-raw'
+import Markdown from 'react-markdown'
+import rehypeRaw from 'rehype-raw'
 
 const Content = () => {
 
   const blog = useLoaderData()
-  const { cover_image, title, tags, url } = blog
+  const { cover_image, title, tags, url, body_html } = blog
 
   return (
     <div className='mx-auto transition border-2 p-2  border-opacity-30   group hover:no-underline focus:no-underline '>
@@ -38,7 +38,7 @@ const Content = () => {
           {title}
         </a>
 
-        {/* <Markdown rehypePlugins={[rehypeRaw]}>{body_html}</Markdown> */}
+        <Markdown rehypePlugins={[rehypeRaw]}>{body_html}</Markdown>
       </div>
     </div>
   )
