@@ -11,7 +11,7 @@ const BlogCard = ({ blog, deletable, handleDelete }) => {
     <div className='flex relative'>
       <Link
         to={`/blog/${blog.id}`}
-        className='max-w-sm mx-auto transition border-2 p-2 hover:scale-105 border-opacity-30 border-primary hover:border-secondary  group hover:no-underline focus:no-underline '
+        className='max-w-sm mx-auto transition border-2 p-2 hover:scale-105 border-opacity-30 border-primary hover:border-secondary group hover:no-underline focus:no-underline'
       >
         <img
           role='presentation'

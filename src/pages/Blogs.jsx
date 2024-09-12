@@ -10,7 +10,7 @@ const Blogs = () => {
   if (navigation.state === 'loading') return <Loader/>
 
   return (
-    <section className='px-4 sm:px-8 lg:px-12 py-8'>
+    <section className='px-4 sm:px-8 lg:px-9 py-8'>
       <div className='container max-w-6xl py-6 mx-auto space-y-6 sm:space-y-12'>
         <Link
           to={`/blog/${blogs[0]?.id}`}
