@@ -1,11 +1,11 @@
 # Bytebliss
 
-## Live site:
+**Live site:**  
 
 - [ByteBliss](https://bytebliss.netlify.app/)
 
 
-## Technology: 
+**Technology:**  
 
 - HTML
 - Tailwind CSS
@@ -18,7 +18,7 @@
 - API - Dev.to API Docs
 
 
-## Resources:
+**Resources:**  
 
 - [Daisy UI](https://daisyui.com/)
 - [TailwindCSS](https://tailwindcss.com/)
