@@ -1,8 +1,6 @@
 # Bytebliss
 
-**Live site:**  
-
-- [ByteBliss](https://bytebliss.netlify.app/)
+**Live site:**  [ByteBliss](https://bytebliss.netlify.app/)
 
 
 **Technology:**  
